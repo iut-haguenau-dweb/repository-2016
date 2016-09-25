@@ -1,7 +1,16 @@
 Cours 1
 =======
 
-Apprendre le Javascript Frontend, et les technologies du web.
+-	Lien du cours : https://github.com/iut-haguenau-dweb/repository-2016
+-	Lien vers ces slides : https://github.com/iut-haguenau-dweb/repository-2016/blob/master/lessons/01-bases-js.md
+
+Déroulement du cours
+====================
+
+1.	Présentation des élèves
+2.	Questionnaire
+3.	Premier cours JS Interactif
+4.	Feedback sur le cours
 
 Questionnaire
 =============
@@ -210,7 +219,7 @@ Code
 Exercices
 =========
 
-Réécrivez la function myFunction:
+Réécrivez la function `myFunction`:
 
 -	sans utiliser `getElementById`.
 -	en utilisant des variables intermédiaires pour stocker les éléments
@@ -219,5 +228,26 @@ Questions
 =========
 
 -	A quoi sert la fonction parseInt ?
--	Que se passe t-il si on n'oublie de l'utiliser
+-	Que se passe t-il si on oublie de l'utiliser ?
 -	Que pensez vous de stocker des valeurs dans le DOM ?
+
+Exercice
+========
+
+Écrire un morpion en JS pur.
+
+-	On commence avec un jeu vide (3x3 cases)
+-	Chaque joueur joue à son tour (le premier joueur joue croix, le deuxième joueur joue rond)
+-	Le premier qui aligne trois croix ou trois ronds gagne (On affiche un alert)
+
+Bugs
+====
+
+-	Scoping : http://stackoverflow.com/questions/26154150/javascript-function-inside-the-loop
+
+Problèmatiques
+==============
+
+1.	Modèle pour stocker le morpion
+2.	Méthodes d'accès au morpion
+3.	Vérifications de la victoire

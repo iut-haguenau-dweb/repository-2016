@@ -94,6 +94,128 @@ See https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closure
 
 ---
 
+DOM
+===
+
+```javascript
+document.querySelector('html').onclick = function() {
+    alert('Aïe, arrêtez de cliquer !');
+}
+```
+
+---
+
+DOM
+===
+
+```javascript
+document.querySelector('html'){~.onclick = function() {
+    alert('Aïe, arrêtez de cliquer !');
+}~}
+```
+
+---
+
+DOM
+===
+
+```javascript
+{~document.querySelector('html').~}onclick{~ = function() {
+    alert('Aïe, arrêtez de cliquer !');
+}~}
+```
+
+---
+
+DOM
+===
+
+```javascript
+{~document.querySelector('html').onclick = ~}function() {
+    alert('Aïe, arrêtez de cliquer !');
+}
+```
+
+---
+
+DOM
+===
+
+méthodes de window.document{~
+
+-	document.getElementById('foo')
+-	document.getElementsByClassName('bar')
+-	document.getElementsByTagName('html')
+-	document.querySelector('div > a.btn')
+-	document.querySelectorAll('div > a.btn')~}
+
+---
+
+DOM
+===
+
+méthodes de window.document
+
+-	document.getElementById('foo'){~
+-	document.getElementsByClassName('bar')
+-	document.getElementsByTagName('html')
+-	document.querySelector('div > a.btn')
+-	document.querySelectorAll('div > a.btn')~}
+
+---
+
+DOM
+===
+
+méthodes de window.document{~
+
+-	document.getElementById('foo')~}
+-	document.getElementsByClassName('bar'){~
+-	document.getElementsByTagName('html')
+-	document.querySelector('div > a.btn')
+-	document.querySelectorAll('div > a.btn')~}
+
+---
+
+DOM
+===
+
+méthodes de window.document{~
+
+-	document.getElementById('foo')
+-	document.getElementsByClassName('bar')~}
+-	document.getElementsByTagName('html'){~
+-	document.querySelector('div > a.btn')
+-	document.querySelectorAll('div > a.btn')~}
+
+---
+
+DOM
+===
+
+méthodes de window.document{~
+
+-	document.getElementById('foo')
+-	document.getElementsByClassName('bar')
+-	document.getElementsByTagName('html')~}
+-	document.querySelector('div > a.btn'){~
+-	document.querySelectorAll('div > a.btn')~}
+
+---
+
+DOM
+===
+
+méthodes de window.document{~
+
+-	document.getElementById('foo')
+-	document.getElementsByClassName('bar')
+-	document.getElementsByTagName('html')
+-	document.querySelector('div > a.btn')~}
+-	document.querySelectorAll('div > a.btn')
+
+---
+
 Code
 ====
 

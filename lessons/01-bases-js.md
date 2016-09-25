@@ -24,14 +24,80 @@ https://developer.mozilla.org/fr/Apprendre/Commencer_avec_le_web/Les_bases_JavaS
 Histoire
 ========
 
--	JS créé par Brendan Eich en 1995 -
+-	JS créé par Brendan Eich en 1995
+-	Standardisation du langage à partir de 1997 (ES1)
+-	Apparition de jQuery en 2006
+-	Nouveau standard ES5 (2009)
+-	Node.js (2009)
+-	Backbone Framework
+-	Angular Framework
+-	Nouveau standard ES2015 (Juin 2015)
+-	Vuejs Library
+-	React Library
+-	Nouveau standard ES2016 (Juin 2016)
+
+---
+
+Variables
+=========
+
+---
+
+Variables
+=========
+
+var a, b;
+
+a = 1;
+
+b = a + 1;
+
+---
+
+Variables
+=========
+
+var a, b; // Déclaration
+
+\{~a = 1;
+
+b = a + 1;~}
+
+---
+
+Variables
+=========
+
+\{~var a, b;~}
+
+a = 1; // Affectation (a LHS)
+
+\{~b = a + 1;~}
+
+---
+
+Variables
+=========
+
+\{~var a, b;
+
+a = 1;~}
+
+b = a + 1; // Affectation et utilisation (b LHS, a RHS)
+
+---
+
+Variables
+=========
+
+See https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#compiler-speak
 
 ---
 
 Code
 ====
 
-```
+```javascript
 <html>
 <body>
 	<h1>Multiplication</h1>
@@ -45,7 +111,6 @@ Code
 			var b=parseInt(document.getElementById("a2").value);
 			var c=a*b;
 			document.getElementById("a3").innerHTML=c;
-
  		}
 	</script>
 </body>

@@ -3,8 +3,6 @@ Cours 1
 
 Apprendre le Javascript Frontend, et les technologies du web.
 
----
-
 Questionnaire
 =============
 
@@ -12,14 +10,10 @@ Lien vers le questionnaire de premier cours
 
 https://goo.gl/forms/nBRNUEdUiUlsC6c92
 
----
-
 Liens
 =====
 
 https://developer.mozilla.org/fr/Apprendre/Commencer_avec_le_web/Les_bases_JavaScript
-
----
 
 Histoire
 ========
@@ -36,13 +30,6 @@ Histoire
 -	React Library
 -	Nouveau standard ES2016 (Juin 2016)
 
----
-
-Variables
-=========
-
----
-
 Variables
 =========
 
@@ -51,8 +38,6 @@ var a, b;
 a = 1;
 
 b = a + 1;
-
----
 
 Variables
 =========
@@ -63,8 +48,6 @@ var a, b; // Déclaration
 
 b = a + 1;~}
 
----
-
 Variables
 =========
 
@@ -73,8 +56,6 @@ Variables
 a = 1; // Affectation (a LHS)
 
 \{~b = a + 1;~}
-
----
 
 Variables
 =========
@@ -85,14 +66,10 @@ a = 1;~}
 
 b = a + 1; // Affectation et utilisation (b LHS, a RHS)
 
----
-
 Variables
 =========
 
 See https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#compiler-speak
-
----
 
 DOM
 ===
@@ -103,8 +80,6 @@ document.querySelector('html').onclick = function() {
 }
 ```
 
----
-
 DOM
 ===
 
@@ -113,8 +88,6 @@ document.querySelector('html'){~.onclick = function() {
     alert('Aïe, arrêtez de cliquer !');
 }~}
 ```
-
----
 
 DOM
 ===
@@ -125,8 +98,6 @@ DOM
 }~}
 ```
 
----
-
 DOM
 ===
 
@@ -136,8 +107,6 @@ DOM
 }
 ```
 
----
-
 DOM
 ===
 
@@ -147,22 +116,18 @@ méthodes de window.document{~
 -	document.getElementsByClassName('bar')
 -	document.getElementsByTagName('html')
 -	document.querySelector('div > a.btn')
--	document.querySelectorAll('div > a.btn')~}
-
----
+-	document.querySelectorAll('a.btn')~}
 
 DOM
 ===
 
 méthodes de window.document
 
--	document.getElementById('foo'){~
+-	document.getElementById('foo') // renvoie un element par identifiant <div id='foo'/>\{~
 -	document.getElementsByClassName('bar')
 -	document.getElementsByTagName('html')
 -	document.querySelector('div > a.btn')
--	document.querySelectorAll('div > a.btn')~}
-
----
+-	document.querySelectorAll('a.btn')~}
 
 DOM
 ===
@@ -170,12 +135,10 @@ DOM
 méthodes de window.document{~
 
 -	document.getElementById('foo')~}
--	document.getElementsByClassName('bar'){~
+-	document.getElementsByClassName('bar') // renvoie un NodeList (similaire à tableau) par class html \[<div class="bar">, <span class="bar">]{~
 -	document.getElementsByTagName('html')
 -	document.querySelector('div > a.btn')
--	document.querySelectorAll('div > a.btn')~}
-
----
+-	document.querySelectorAll('a.btn')~}
 
 DOM
 ===
@@ -184,11 +147,9 @@ méthodes de window.document{~
 
 -	document.getElementById('foo')
 -	document.getElementsByClassName('bar')~}
--	document.getElementsByTagName('html'){~
+-	document.getElementsByTagName('html') // renvoie un element par tag html <html/>\{~
 -	document.querySelector('div > a.btn')
--	document.querySelectorAll('div > a.btn')~}
-
----
+-	document.querySelectorAll('a.btn')~}
 
 DOM
 ===
@@ -198,10 +159,8 @@ méthodes de window.document{~
 -	document.getElementById('foo')
 -	document.getElementsByClassName('bar')
 -	document.getElementsByTagName('html')~}
--	document.querySelector('div > a.btn'){~
--	document.querySelectorAll('div > a.btn')~}
-
----
+-	document.querySelector('div > a.btn') // renvoie un element par selecteur (similaire à CSS), Ici, cela renvoie le premier lien de classe btn enfants directs de div{~
+-	document.querySelectorAll('a.btn')~}
 
 DOM
 ===
@@ -212,9 +171,18 @@ méthodes de window.document{~
 -	document.getElementsByClassName('bar')
 -	document.getElementsByTagName('html')
 -	document.querySelector('div > a.btn')~}
--	document.querySelectorAll('div > a.btn')
+-	document.querySelectorAll('div > a.btn') // renvoie un NodeList par selecteur (similaire à CSS), Ici, cela renvoie les liens de classe btn enfants directs de div
 
----
+Voir https://developer.mozilla.org/en-US/docs/Web/API/document
+
+Element
+=======
+
+propriétés de element :
+
+-	element.value
+-	element.innerHTML
+-	element.onclick
 
 Code
 ====
@@ -238,3 +206,18 @@ Code
 </body>
 </html>
 ```
+
+Exercices
+=========
+
+Réécrivez la function myFunction:
+
+-	sans utiliser `getElementById`.
+-	en utilisant des variables intermédiaires pour stocker les éléments
+
+Questions
+=========
+
+-	A quoi sert la fonction parseInt ?
+-	Que se passe t-il si on n'oublie de l'utiliser
+-	Que pensez vous de stocker des valeurs dans le DOM ?

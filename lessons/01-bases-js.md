@@ -243,11 +243,12 @@ Exercice
 Bugs
 ====
 
--	Scoping : http://stackoverflow.com/questions/26154150/javascript-function-inside-the-loop
+-	Scoping : http://stackoverflow.com/questions/26154150/javascript-function-inside-the-loop, https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md
 
 Problèmatiques
 ==============
 
 1.	Modèle pour stocker le morpion
 2.	Méthodes d'accès au morpion
-3.	Vérifications de la victoire
+3.	Affichage dynamique du morpion
+4.	Vérifications de la victoire

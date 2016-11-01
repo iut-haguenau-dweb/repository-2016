@@ -27,7 +27,7 @@ Les objectifs du cours sont :
 Prérequis
 ---------
 
-Voici les installations à faire avant le premier cours :
+Voici les installations à faire pendant le premier cours :
 
 -	[Git](http://git-scm.com/download/win) (v2.5 minimum)
 -	[SourceTree](https://www.sourcetreeapp.com/) sur windows ou mac , ou [SmartGit](http://www.syntevo.com/smartgit/) sur linux

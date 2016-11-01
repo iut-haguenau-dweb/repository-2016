@@ -231,6 +231,57 @@ Questions
 -	Que se passe t-il si on oublie de l'utiliser ?
 -	Que pensez vous de stocker des valeurs dans le DOM ?
 
+Creer des Elements dynamiquement
+================================
+
+```javascript
+<html>
+<body>
+	<p id="a3"></p>
+	<script>
+		var paragraph = document.getElementById("a3");
+		var div = document.createElement("div")
+		div.classList = "myclass";
+		paragraph.appendChild(div);
+	</script>
+</body>
+</html>
+```
+
+Supprimer des Elements
+======================
+
+```javascript
+<html>
+<body>
+	<p id="a1"></p>
+	<p id="a2"></p>
+	<script>
+		var paragraph = document.getElementById("a2");
+		paragraph.remove();
+	</script>
+</body>
+</html>
+```
+
+Recuperer un element parent
+===========================
+
+```javascript
+<html>
+<body>
+	<p id="a1"></p>
+	<p id="a2"><button>Remove paragraph</button></p>
+	<script>
+		var button = document.querySelector("button");
+		button.onclick = function (e) {
+			e.target.parentNode.remove();
+		}
+	</script>
+</body>
+</html>
+```
+
 Exercice
 ========
 

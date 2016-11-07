@@ -60,8 +60,8 @@ Leçons
 
 1.	[Introduction, Bases de Javascript](lessons/01-bases-js.md)
 2.	[La manipulation du DOM avec jQuery](lessons/02-bases-dom-jquery.md)
-3.	[Début de programmation fonctionnelle](lessons/03-programmation-fonctionnelle.md)
-4.	[Vue.JS](lessons/04-vue-js.md)
+3.	[Vue.JS](lessons/03-vue-js.md)
+4.	[Début de programmation fonctionnelle](lessons/04-programmation-fonctionnelle.md)
 5.	[Ajax les Promesses, et fetch](lessons/05-ajax-promesse.md)
 6.	[Performance web](lessons/06-performance-web.md)
 7.	[Testing](lessons/07-testing.md)

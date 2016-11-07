@@ -1,11 +1,13 @@
 Cours 1
 =======
 
--	Lien du cours : https://github.com/iut-haguenau-dweb/repository-2016
--	Lien vers ces slides : https://github.com/iut-haguenau-dweb/repository-2016/blob/master/lessons/01-bases-js.md
+-	Lien du cours :
+-	https://github.com/iut-haguenau-dweb/repository-2016
+-	Lien vers ces slides :
+-	https://github.com/iut-haguenau-dweb/repository-2016/blob/master/lessons/01-bases-js.md
 
-Déroulement du cours
-====================
+Deroulement
+===========
 
 1.	Présentation des élèves
 2.	Questionnaire
@@ -78,7 +80,37 @@ b = a + 1; // Affectation et utilisation (b LHS, a RHS)
 Variables
 =========
 
+```javascript
+function foo(a) {
+	console.log( a + b );
+	b = a;
+}
+
+foo(2);
+```
+
+Variables
+=========
+
+```javascript
+console.log(a);
+a = a + 3;
+console.log(a);
+var a = 1;
+console.log(a);
+```
+
+Quel est l'ordre d'éxécution ?
+
+Variables
+=========
+
 See https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md#compiler-speak
+
+Scopes
+======
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md#lex-time
 
 DOM
 ===
@@ -231,8 +263,8 @@ Questions
 -	Que se passe t-il si on oublie de l'utiliser ?
 -	Que pensez vous de stocker des valeurs dans le DOM ?
 
-Creer des Elements dynamiquement
-================================
+Creer
+=====
 
 ```javascript
 <html>
@@ -248,8 +280,8 @@ Creer des Elements dynamiquement
 </html>
 ```
 
-Supprimer des Elements
-======================
+Supprimer
+=========
 
 ```javascript
 <html>
@@ -264,8 +296,8 @@ Supprimer des Elements
 </html>
 ```
 
-Recuperer un element parent
-===========================
+Parent
+======
 
 ```javascript
 <html>
@@ -296,10 +328,13 @@ Bugs
 
 -	Scoping : http://stackoverflow.com/questions/26154150/javascript-function-inside-the-loop, https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md
 
-Problèmatiques
+Problematiques
 ==============
 
 1.	Modèle pour stocker le morpion
 2.	Méthodes d'accès au morpion
 3.	Affichage dynamique du morpion
 4.	Vérifications de la victoire
+
+Feedback
+========

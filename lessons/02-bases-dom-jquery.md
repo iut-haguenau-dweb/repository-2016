@@ -19,7 +19,11 @@ Histoire
 -	John Resig travaille de 2006 à 2011 à Mozilla, puis Khan Academy
 -	Version 2 en 2013 (Drop IE6-8 support)
 -	Version 3 en 2016 (Promises/A+ Support)
--	Partie de la jQuery Foundation, qui détient également ESLint, lodash, grunt, dojo
+-	Partie de la jQuery Foundation, qui détient
+-	ESLint
+-	lodash
+-	grunt
+-	dojo
 
 Contenu
 =======

@@ -253,3 +253,26 @@ cd todo-backend-restify-redux
 npm install
 PORT=7777 npm start
 ```
+
+Astuces
+=======
+
+```javascript
+$.ajax({
+	url: "https://todo-backend-catalyst.herokuapp.com/",
+	method: "GET",
+	success: function(response) {
+		console.log(response);
+	}
+});
+$.ajax({
+    url: "https://todo-backend-catalyst.herokuapp.com/",
+    method: "POST",
+    success: function(response) {
+       console.log(response);
+    },
+    data: {
+      title: "Test 1"
+    }
+});
+```

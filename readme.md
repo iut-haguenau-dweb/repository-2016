@@ -60,15 +60,14 @@ Leçons
 
 1.	[Introduction, Bases de Javascript](lessons/01-bases-js.md)
 2.	[La manipulation du DOM avec jQuery](lessons/02-bases-dom-jquery.md)
-3.	[Vue.JS](lessons/03-vue-js.md)
-4.	[Début de programmation fonctionnelle](lessons/04-programmation-fonctionnelle.md)
-5.	[Ajax les Promesses, et fetch](lessons/05-ajax-promesse.md)
-6.	[Performance web](lessons/06-performance-web.md)
-7.	[Testing](lessons/07-testing.md)
-8.	[ES6](lessons/08-ecmascript-6.md)
-9.	[ReactJS](lessons/09-react.md)
-10.	[Flux/Redux](lessons/10-flux-redux.md)
-11.	[d3.js](lessons/11-d3js.md)
+3.	[Début de programmation fonctionnelle](lessons/03-programmation-fonctionnelle.md)
+4.	[Ajax les Promesses, et fetch](lessons/04-ajax-promesse.md)
+5.	[Performance web](lessons/05-performance-web.md)
+6.	[Testing](lessons/06-testing.md)
+7.	[ES6](lessons/07-ecmascript-6.md)
+8.	[ReactJS](lessons/08-react.md)
+9.	[Flux/Redux](lessons/9-flux-redux.md)
+10.	[d3.js](lessons/10-d3js.md)
 
 Découverte JS :
 ---------------

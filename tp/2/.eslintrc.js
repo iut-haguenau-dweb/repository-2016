@@ -177,7 +177,7 @@ module.exports = {
 		"no-with": "error",
 		"object-curly-newline": "error",
 		"object-curly-spacing": "error",
-		"object-property-newline": "error",
+		//"object-property-newline": "error",
 		"object-shorthand": "off",
 		"one-var": "off",
 		"one-var-declaration-per-line": "error",
@@ -202,10 +202,10 @@ module.exports = {
 		"semi": "off",
 		"semi-spacing": "off",
 		"sort-imports": "error",
-		"sort-keys": [
+		/*"sort-keys": [
 			"error",
 			"desc"
-		],
+		],*/
 		"sort-vars": "error",
 		"space-before-blocks": "error",
 		"space-before-function-paren": "off",

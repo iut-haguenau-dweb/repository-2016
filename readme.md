@@ -77,3 +77,24 @@ Découverte JS :
 -	Architecture Flux / Redux
 -	ES6, nouveau standard.
 -	React-Native, utiliser React sur mobile pour faire des applications natives
+
+Setup portable nodejs and npm
+-----------------------------
+
+-	Goto https://nodejs.org/en/download/current/ and download windows binary **.exe** 64 bit
+-	Place node.exe in the %homepath%/bin directory that you create
+-	Hit windows - edit environment variables for **your account**, and add %homepath%/bin to your Path
+-	Open cmd and type `node --version`, it should show `v7.2.1`
+-	Go to https://github.com/npm/npm/releases and download the latest source code release in **zip**
+-	Extract npm to %homepath%/bin
+-	Hit windows - edit environment variables for **your account**, and add %homepath%/bin/npm-4.0.5/bin to your Path
+-	Open %homepath%/bin/nw-4.0.5/bin/npm.cmd and replace the content of that file with : `node "%~dp0\npm-cli.js" %*` (yes, just this one line)
+-	**Close your terminal, and reopen it** (this is necessary for the new environment variables to apply)
+-	Open your terminal, and type `npm --version`, you should have something like `4.0.5` printed
+-	Run `npm install -g create-react-app`
+-	Run `create-react-app my-app`
+
+Run npm install -g without sudo :
+---------------------------------
+
+http://www.competa.com/blog/2014/12/how-to-run-npm-without-sudo/
